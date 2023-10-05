@@ -10,19 +10,19 @@ const Card = () => {
     <div className='cards'>
 
       <div>
-        <img src='first.png' className='featureImage'></img>
+        <img src='first.png' alt='' className='featureImage'></img>
       </div>
 
       <div>
-        <img src='second.png' className='featureImage'></img>
+        <img src='second.png' alt='' className='featureImage'></img>
       </div>
 
       <div>
-        <img src='third.png' className='featureImage'></img>
+        <img src='third.png' alt='' className='featureImage'></img>
       </div>
 
       <div>
-        <img src='fourth.png' className='featureImage'></img>
+        <img src='fourth.png' alt='' className='featureImage'></img>
       </div>
       
     </div>

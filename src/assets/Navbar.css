@@ -10,30 +10,21 @@
 .navbar{
     display: flex;
     gap: 2rem;
-    /* justify-content: baseline; */
     align-items: center;
-    /* position: fixed; */
-    width: 100vw;
-    /* height: 15rem; */
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Source Code Pro', monospace;
+    justify-content: space-between;
+    /* width: 100vw; */
+    
     box-shadow: 0 5px 5px -3px rgba(0,0,0,.2);
-    overflow-x: hidden;
-    overflow-y: auto;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+}
+.navItems{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
-.leftItems
-{
-    margin-right: auto;
-    /* margin-left: 1rem; */
-}
 
-.rightNavItems
-{
-    justify-content: flex-end;
-    /* align-items: flex-end; */
-}
 
 a
 {
