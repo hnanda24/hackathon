@@ -19,8 +19,8 @@
     font-family: 'Roboto Mono', monospace;
     font-family: 'Source Code Pro', monospace;
     box-shadow: 0 5px 5px -3px rgba(0,0,0,.2);
-    overflow-x: hidden;
-    overflow-y: auto;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
 }
 
 .leftItems

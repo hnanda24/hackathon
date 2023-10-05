@@ -17,7 +17,7 @@ export default function Main(){
                     therapists, all in one place. Download ManYog today 
                     to embark on your journey towards a happier, healthier mind.`}</p>
                 </div>
-                <img src= "main.jpg" className="mainImage" />
+                <img src= "main.jpg" alt="" className="mainImage" />
             </div>
     </>
 )
