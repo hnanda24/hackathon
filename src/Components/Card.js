@@ -5,15 +5,26 @@ const Card = () => {
   return (
     <div>
 
-    <h3>Top Programs For MEntal Health</h3>
+    <h3 className='featureHead'>Top Programs For MEntal Health</h3>
 
     <div className='cards'>
 
-      <img src='first.png'></img>
-      <img src='second.png'></img>
-      <img src='third.png'></img>
-      <img src='fourth.png'></img>
+      <div>
+        <img src='first.png' className='featureImage'></img>
+      </div>
 
+      <div>
+        <img src='second.png' className='featureImage'></img>
+      </div>
+
+      <div>
+        <img src='third.png' className='featureImage'></img>
+      </div>
+
+      <div>
+        <img src='fourth.png' className='featureImage'></img>
+      </div>
+      
     </div>
 
     </div>
