@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
 *
 {
     box-sizing: border-box;
@@ -17,23 +18,29 @@
 
 .mainImage
 {
-    width: 35%;
+    width: 50%;
     height: 20%;
     border-radius: 60rem;
     margin-top: 2rem;
 }
 
 .textContent
-{
+{   
+    width: 50%;
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
-    gap: 8rem;
+    /* gap: 8rem; */
     font-size: 30px;
+    align-items: center;
+    
 }
 
-.mainHeading
-{
-    margin-top: 2rem;
-    margin-left: 30rem;
+.textContent h1{
+    font-family: 'Homemade Apple', cursive;
+}
+
+.textContent p{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+
 }

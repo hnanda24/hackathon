@@ -12,10 +12,11 @@ import Footer from './Components/Footer'
 
 import MoodTracker from './Components/MoodTracker';
 import Mindful_Exercises from './Components/Mindful_Exercises';
+import './assets/App.css'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg'>
 
         <Navbar></Navbar>
         <Routes>
@@ -23,7 +24,8 @@ const App = () => {
           <Route path='/videoChat' element={<VideoChat/>} />  
           <Route path="/mindful" element={<Mindful_Exercises />}/>
           </Routes>
-        
+          
+
         <Footer/>
     </div>
   )

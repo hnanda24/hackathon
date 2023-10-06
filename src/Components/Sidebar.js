@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 
 import { SocketContext } from '../context';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Sidebar = ({ children }) => {
   const { me, callAccepted, name, setName, callEnded, leaveCall, callUser } = useContext(SocketContext);

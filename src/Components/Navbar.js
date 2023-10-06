@@ -8,7 +8,7 @@ export default function Navbar() {
             <nav className="navbar">
 
                 <div className="navItems">
-                    <img src="yoga.jpg" className="image"></img>
+                    {/* <img src="yoga.jpg" className="image"></img> */}
                     <h1 className="heading"> ManoYog </h1>
                 </div>
                 <div className="navItems">
@@ -18,7 +18,7 @@ export default function Navbar() {
                     </h4>
 
                     <h4>
-                        <Link to="/programs">Programs</Link>
+                        <Link to="/mindful">Mindful Exercise</Link>
                     </h4>
 
                     <h4 >

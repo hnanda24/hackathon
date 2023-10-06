@@ -47,7 +47,8 @@ const Exercise = (props) => {
 
   return (
     <div className="AudioPlayer">
-      <audio ref={audioRef} src={props.audio} />
+        <h1>{props.help}</h1>
+      <audio ref={audioRef} src="breathing-meditation.mp3" />
       <button className="PlayButton" onClick={togglePlay}>
         {isPlaying ? 'Pause' : 'Play'}
       </button>

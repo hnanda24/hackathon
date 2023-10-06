@@ -10,9 +10,7 @@ export default function Main(){
             <div className="mainContent">
                 <div className="textContent">
                     <h1 className="mainHeading"> ManoYog </h1>
-                    <p> {`ManYog is your ultimate mental wellness app, 
-                    combining mindful exercises, meditation, a supportive 
-                    community, and professional help. Cultivate inner calm, 
+                    <p> {`Cultivate inner calm, 
                     connect with like-minded individuals, and access licensed
                     therapists, all in one place. Download ManYog today 
                     to embark on your journey towards a happier, healthier mind.`}</p>
