@@ -1,8 +1,7 @@
 import React from 'react'
 import Main from './Components/Main'
 import Card from './Components/Card'
-
-const Homepage = () => {
+const HomePage = () => {
   return (
     <>
     <Main/>
@@ -11,4 +10,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default HomePage;
