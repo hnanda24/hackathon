@@ -1,16 +1,20 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
-import Main from './Components/Main'
-import Card from './Components/Card'
+import HomePage from './HomePage'
+import VideoChat from './VideoChat'
 
+import {Route, Routes} from 'react-router-dom'
 
 const App = () => {
   return (
     <div>
 
         <Navbar></Navbar>
-        <Main></Main>
-        <Card></Card>
+        <Routes>
+          <Route path='/' element={<HomePage/>} />
+          <Route path='/videoChat' element={<VideoChat/>} />  
+          </Routes>
+       
 
     </div>
   )
