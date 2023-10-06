@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div>
 
-    <h3 className='featureHead'>Top Programs For MEntal Health</h3>
+    <h1 className='featureHeading'>Top Programs For Mental Health</h1>
 
     <div className='cards'>
 

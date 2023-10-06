@@ -12,6 +12,7 @@
     /* justify-content: space-evenly; */
     margin-left: 10rem;
     margin-right: 10rem;
+    align-items: center;
 }
 
 .mainImage

@@ -1,0 +1,61 @@
+/* MoodTracker.css */
+
+.MoodTracker {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .MoodInput {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .MoodHistory {
+    margin: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom:10px;
+  }
