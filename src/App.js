@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Route, Routes } from 'react-router-dom';
+// import {  Route, Routes } from 'react-router-dom';
 
 
 import Navbar from './Components/Navbar'
@@ -21,19 +21,8 @@ const App = () => {
         <Routes>
           <Route path='/' element={<HomePage/>} />
           <Route path='/videoChat' element={<VideoChat/>} />  
+          <Route path="/mindful" element={<Mindful_Exercises />}/>
           </Routes>
-       
-
-
-          <Routes>
-
-            
-            <Route path="/mindful" element={<Mindful_Exercises />}/>
-              
-           
-
-          </Routes>
-        
         
         <Footer/>
     </div>
