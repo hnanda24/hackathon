@@ -1,0 +1,9 @@
+.soundCards
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 15rem; */
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("bg.png"); */
+}

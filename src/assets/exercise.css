@@ -4,16 +4,23 @@
 .AudioPlayer {
     text-align: center;
     margin: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(87, 87, 232);
+    /* background-image: url("bg.png"); */
+    border-radius: 5%;
+    padding: 5%;
   }
   
   /* Style the play/pause button */
   .PlayButton {
-    background-color: #007bff;
-    color: #fff;
+    background-color: white;
+    color: blue;
     font-size: 16px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    margin-top: 10%;
   }
   
   .PlayButton:hover {
@@ -22,10 +29,11 @@
   
   /* Style the slider container */
   .SliderContainer {
-    margin-top: 10px;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
   
   /* Style the duration slider */
@@ -44,5 +52,5 @@
   
   /* Style the time information text */
   .TimeInfo {
-    font-size: 14px;
+    font-size:14px;
   }
