@@ -3,10 +3,10 @@
 /* Container for the entire audio player */
 .AudioPlayer {
     text-align: center;
-    margin: 20px;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(87, 87, 232);
+    /* margin: 20px; */
+    width: 20vw;
+    height: 10vh;
+    background-color: #FFFAF4;
     /* background-image: url("bg.png"); */
     border-radius: 5%;
     padding: 5%;
@@ -15,7 +15,7 @@
   /* Style the play/pause button */
   .PlayButton {
     background-color: white;
-    color: blue;
+    color: black;
     font-size: 16px;
     border: none;
     padding: 10px 20px;
@@ -29,7 +29,7 @@
   
   /* Style the slider container */
   .SliderContainer {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     display: flex;
     flex-direction: column;
     align-items: center;

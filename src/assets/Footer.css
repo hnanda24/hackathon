@@ -1,12 +1,14 @@
 .foot
 {
-    /* width: 100vw; */
+    width: 100vw;
+    position:fixed ; 
+    bottom:0;
     height: 5rem;
     background-color: #FEE4D3;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
 }
 
 .appointmentBtn {
