@@ -5,3 +5,20 @@
     padding: 0;
 }
 
+.featureHeading
+{
+    text-align: center;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+/* .featureImage
+{
+    
+} */
